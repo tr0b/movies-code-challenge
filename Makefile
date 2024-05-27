@@ -6,6 +6,9 @@ init:
 	sqlc
 	migrateup
 
+start:
+	docker compose up
+
 createdb:
 	docker-compose exec postgres createdb --username=${POSTGRES_USER} --owner=${POSTGRES_USER} ${POSTGRES_DB}
 
