@@ -37,7 +37,7 @@ export const MovieGallery = ({ movies }: MovieGalleryProps) => {
         key={`movie-id-${movie.id}`}
         isFooterBlurred
         radius="md"
-        className="border-none max-w-screen-60 max-h-60"
+        className="border-none max-w-screen-64 max-h-64"
       >
         <Image
           alt="movie image default"
@@ -47,7 +47,7 @@ export const MovieGallery = ({ movies }: MovieGalleryProps) => {
           width="auto"
         ></Image>
         <CardFooter className="justify-between before:bg-white/10 border-white/20 border-1 overflow-hidden py-1 absolute before:rounded-xl rounded-large bottom-1 w-[calc(100%_-_8px)] shadow-small ml-1 z-10">
-          <p className="text-base text-white/100">{movie.title}</p>
+          <p className="text-base text-white/100 truncate">{movie.title}</p>
           <Button
             className="text-tiny text-white bg-black/20"
             variant="flat"
