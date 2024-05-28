@@ -11,4 +11,7 @@ Clone the repo, then run
 
 Then go to localhost:3000 on your browser of choice.
 
+# Demo
 
+![demonstration](./demo.png)
+![demonstration part two](./demo2.png)
